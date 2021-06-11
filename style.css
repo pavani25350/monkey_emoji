@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh; 
+    background: linear-gradient(to bottom,#000,#fff); 
+}
+.emoji
+{
+    margin: auto;
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+.closed
+{
+    display: none;
+}
+.open
+{
+    display: none;
+}
+.active
+{
+    display: block;
+}
+#demo1
+{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* animation: fadein 3s ease-in-0ut; */
+}
+#demo2
+{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 10vh;
+    /* animation: fadein 3s ease-in-0ut; */
+}
+button
+{
+    border-radius: 10px;
+    background: linear-gradient(to top,black,white);
+    padding: 10px;
+}
+/* @keyframes fadein
+{
+ from
+ {
+     opacity: 0;
+  }
+  to 
+  {
+      opacity: 1;
+  } 
+} */
